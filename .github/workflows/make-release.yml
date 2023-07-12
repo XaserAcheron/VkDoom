@@ -1,9 +1,6 @@
 name: MakeRelease
 
-on:
-  workflow_dispatch:
-  push:
-    branches: [ "ci" ]
+on: workflow_dispatch
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
